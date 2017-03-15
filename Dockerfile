@@ -1,4 +1,4 @@
-FROM fabric8/nodejs-builder:0.0.2
+FROM fabric8/nodejs-builder:0.0.3
 
 RUN yum update -y && \
   yum install -y docker unzip java-1.8.0-openjdk-devel which && \
